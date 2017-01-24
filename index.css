@@ -1,0 +1,98 @@
+* {
+margin: 0;
+padding: 0;
+}
+.topbar{
+    width:100%;
+    background-color: black;
+    height:130px;
+    color:white;
+    font-family: 'Work Sans';
+    position: fixed;
+}
+h1{
+    margin-left: 75px;
+    float:left;
+    margin-top: 45px;
+    font-family: 'Work Sans';
+    font-weight: 200;
+    font-size: 70px;
+}
+.links{
+    float:left;
+
+    margin-left: 95px;
+    color: white;
+    font-size: 20px;
+
+}
+.mainlinks{
+    height:30px;
+
+    margin-top: 90px;
+    position: absolute;
+    right:80px;
+
+}
+.icons{
+    float:left;
+    margin-left: 100px;
+margin-top: 15px;
+    height:50px;
+    width:50px;
+}
+.allicons{
+    float:right;
+    position:absolute;
+    right:100px;
+}
+.icons:last-child{
+    margin-top: 20px;
+}
+#main{
+    width:100%;
+}
+.mainPic{
+height:600px;
+width:50%;
+position: absolute;
+top:200px;
+left:75px;
+background-color: black;
+
+}
+.intro{
+position: absolute;
+margin-left: 50px;
+right:50px;
+
+}
+.bottomPic{
+
+}
+.topPic{
+
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+/* visited link */
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+/* mouse over link */
+
+a:hover {
+    color: #a6a6a6;
+}
+/* selected link */
+a:active {
+    color: white;
+    text-decoration: underline;
+}
+a{
+    float: left;
+}

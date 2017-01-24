@@ -1,149 +1,154 @@
 body {
     /*background:url("img/backgroundv3.gif) no-repeat left top fixed;
 */
-    font-family: 'Questrial';
+    font-family: 'Lato', sans-serif;
+    background-color: #e1e1e1;
     margin: 0;
     height: 100%;
     font-weight: 300;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background: white;
 }
-
 a:link {
     color: black;
     text-decoration: none;
 }
+
 /* visited link */
 
 a:visited {
     color: black;
     text-decoration: none;
 }
+
 /* mouse over link */
 
 a:hover {
     color: #a6a6a6;
 }
+
 /* selected link */
+
 a:active {
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* sublinks */
+
 a:link.sub {
-    color: white;
+    color: black;
     text-decoration: none;
+    font-weight: 300;
 }
+
 /* visited link */
 
 a:visited.sub {
-    color: white;
+    color: black;
     text-decoration: none;
 }
+
 /* mouse over link */
 
 a:hover.sub {
     color: #333333;
 }
+
 /* selected link */
+
 a:active.sub {
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
 }
-
-
-
-
-
-h1 {
-    font-family: 'Work Sans';
-    color: #333333;
-    /*
-    background:rgba(0,0,0,0.5)  ;
-    */
-    background-size: 100%;
-    height: 90px;
-    margin-top: 2px;
-    margin-bottom: 0px;
-    margin-left:0px;
-    font-weight: 200;
-    font-size: 70px;
-    background: white;
+#nav {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    color: black;
+    position: fixed;
+    box-shadow: 1px 1px 10px #9E9E9E;
+    top: 0px;
 }
-
-
-/*
-h2{
-    position:relative;
-      background:white;
-     font-family: 'Questrial' ;
-     font-weight:200;
-     font-size:25px;
-     text-align:center;
-     color:gray;
-  height:40px;
-      margin-top:0px;
-      z-index:90;
-
-}
-*/
-
-.links {
-    font-family: 'Questrial';
-    font-weight: 300;
-    color: white;
-
-    font-size: 20px;
-    padding-top: 10px;
-    width: auto;
-    z-index: 1000;
-    text-align:right;
-     padding-right:20px;
-
-}
-
 #logo {
-    float: left;
+    font-size: 26px;
+    display: inline;
+    padding-left: 100px;
+    font-weight: 'lato', sans-serif;
+    margin-top: 10px;
+    width: 20%;
+    text-align: left;
+    display: inline-block;
 }
-
+#mainlinks {
+    display: inline;
+    text-align: right;
+    right: 30px;
+    float: right;
+    padding-top: 17px;
+    padding-right: 50px;
+    font-family: 'lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.links {
+    display: inline;
+    padding-top: 0px;
+    width: auto;
+    z-index: 10;
+    text-align: right;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+#mainlinks div:last-child {
+    padding-right: 0px;
+}
+#mainlinks div:first-child {
+    background-color: gray;
+    color: white;
+    height: 50px;
+    position: absolute;
+    margin-top: -17px;
+    margin-left: -99px;
+}
+#mainlinks div:first-child span {
+    margin-top: 17px;
+    display: block;
+}
+#mainlinks div:first-child a:link {
+    color: white;
+}
+#mainlinks div:first-child a:visited {
+    color: white;
+}
 .sublinks {
-    margin-top: 20px;
+    margin-top: 75px;
     font-family: 'Questrial';
     font-weight: 300;
-    color: white;
+    color: black;
     font-size: 18px;
     margin-bottom: 0px;
-    text-align:center;
-    width:100%;
+    text-align: center;
+    width: 100%;
     z-index: 10;
     height: 30px;
-     margin-left:-20px;
+    margin-left: -20px;
     float: left;
-
 }
-.sub{
-    margin-left:30px;
-}
-
 header {
     overflow: auto;
     z-index: 200;
 }
-
 #main {
     height: 100%;
     width: 100%;
-    background: #777777;
+    background: #e1e1e1;
 }
-
 #imagegallery {
     overflow: hidden;
-    width:1440px;
-    margin:auto;
+    width: 1440px;
+    margin: auto;
 }
-
 .image {
     float: left;
     z-index: 100;
@@ -153,121 +158,42 @@ header {
     margin: 15px;
     margin-top: 20px;
     border-radius: 3px;
-    background-color:white;
-width:450px;
-height:450px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-  text-align: center;
-
+    background-color: white;
+    width: 450px;
+    height: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
-
 .sub {
     color: black;
-
+    margin-left: 30px;
 }
-
-.text{
-
-  margin:5px;
-  height:auto;
-  width:auto;
-
+.text {
+    margin: 5px;
+    height: auto;
+    width: auto;
 }
-
-.column{
-    display:flex;
+.column {
+    display: flex;
     flex-direction: column;
     overflow: hidden;
     margin-right: 20px;
-
+    padding-top: 25px;
 }
-.column:last-child{
+.column:last-child {
     margin-right: 0;
 }
-.column img{
-    width:100%;
-
+.column img {
+    width: 100%;
 }
-.columns{
-    width:65%;
-    margin:0 auto;
-    display:flex;
-    }
-.image-holder{
-background-color: white;
-padding: 10px;
-margin-bottom: 20px;
-border-radius: 10px;
+.columns {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
 }
-
-@media only screen and (max-width: 780px) {
-    #logo {
-        float: none;
-        text-align: center;
-    }
-    .links {
-        margin-top: -60px;
-        text-align: center;
-    }
-}
-
-@media only screen and (max-width: 1050px) {
-    .image {
-        overflow: hidden;
-    }
-}
-
-@media only screen and (max-width: 1466px) {
-    #imagegallery {
-        width: 1000px;
-    }
-}
-@media only screen and (max-width: 970px) {
-    #imagegallery {
-        width: 500px;
-    }
-}
-@media only screen and (max-width: 507px) {
- h1 {
-     font-size: 55px;
-    }
-    .links {
-        font-size:17px;
-    }
-    .sublinks{
-        font-size:17px;
-    }
-    #imagegallery {
-        width: 400px;
-    }
-    .image{
-        width:300px;
-        height:300px;
-    }
-}
-@media only screen and (max-width: 405px) {
-    .sub{
-    margin-left:10px;
-    font-size:15px;
-    }
- h1 {
-     font-size: 44px;
-    }
-#imagegallery{
-    width:400px
-}
-
-}
-@media only screen and (max-width: 350x) {
-    header {
-        z-index: 200;
-        overflow: visible;
-    }
-    .image {
-        overflow: hidden;
-        height: 100px;
-    }
-    #imagegallery{
-    width:300px
-}
+.image-holder {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 2px;
 }
