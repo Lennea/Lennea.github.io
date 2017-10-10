@@ -30,30 +30,33 @@ html {
     text-align: right;
     right: 30px;
     float: right;
-    padding-top: 17px;
-    padding-right: 50px;
+    padding-top: 0px;
+    padding-right: 75px;
     font-family: 'lato', sans-serif;
     font-size: 16px;
     font-weight: bold;
 }
+#mainlinks span{
+    margin-top:17px;
+    display:block;
+}
 .links {
-    display: inline;
+    float:left;
     padding-top: 0px;
     width: auto;
     z-index: 10;
     text-align: right;
     padding-right: 25px;
     padding-left: 25px;
+    height:50px;
 }
-#mainlinks div:last-child {
-    padding-right: 0px;
-}
+
 #mainlinks div:first-child {
     background-color: gray;
     color: white;
     height: 50px;
-    position: absolute;
-    margin-top: -17px;
+
+    margin-top: 0px;
     margin-left: -99px;
 }
 #mainlinks div:first-child span {
@@ -65,6 +68,10 @@ html {
 }
 #mainlinks div:first-child a:visited {
     color: white;
+}
+#mainlinks div:first-child a:hover {
+    color: white;
+    text-decoration: none;
 }
 a:link {
     color: black;
@@ -81,7 +88,8 @@ a:visited {
 /* mouse over link */
 
 a:hover {
-    color: #a6a6a6;
+    color: black;
+    text-decoration: underline;
 }
 
 /* selected link */
@@ -221,6 +229,7 @@ a:active.sub {
     margin-left: 10px;
     margin-right: 10px;
     margin-top:5px;
+    font-size: 11.8pt;
 }
 #workpreview h1 {
     color: black;
@@ -240,7 +249,7 @@ a:active.sub {
 }
 #footer {
     background-color: white;
-    height: 200px;
+    height: 75px;
     width: 100%;
     position: relative;
     bottom: -500px;
@@ -248,7 +257,6 @@ a:active.sub {
 #footer h1 {
     width: 100%;
     text-align: center;
-    height: 100px;
     position: absolute;
     font-size: 16px;
     color: gray;
