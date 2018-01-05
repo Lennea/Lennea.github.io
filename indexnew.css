@@ -1,10 +1,10 @@
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
-    background-color:rgba(225, 225, 225, 0.6);
+    background-color: rgba(225, 225, 225, 0.6);
 }
 html {
-  overflow-y: scroll;
+    overflow-y: scroll;
 }
 #nav {
     width: 100%;
@@ -36,26 +36,24 @@ html {
     font-size: 16px;
     font-weight: bold;
 }
-#mainlinks span{
-    margin-top:17px;
-    display:block;
+#mainlinks span {
+    margin-top: 17px;
+    display: block;
 }
 .links {
-    float:left;
+    float: left;
     padding-top: 0px;
     width: auto;
     z-index: 10;
     text-align: right;
     padding-right: 25px;
     padding-left: 25px;
-    height:50px;
+    height: 50px;
 }
-
 #mainlinks div:first-child {
     background-color: gray;
     color: white;
     height: 50px;
-
     margin-top: 0px;
     margin-left: -99px;
 }
@@ -210,25 +208,24 @@ a:active.sub {
 .workpic {
     display: inline-block;
     width: 333px;
-    height: 320px;
+    height: 295px;
     margin-right: 47px;
     background-color: white;
     float: left;
     box-shadow: 1px 1px 10px #9E9E9E;
-
 }
-#workpreview h2{
+#workpreview h2 {
     margin-top: 5px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 5px;
-    font-size: 20px;
-
+    font-size: 18px;
+    text-align: center;
 }
-#workpreview p{
+#workpreview p {
     margin-left: 10px;
     margin-right: 10px;
-    margin-top:5px;
+    margin-top: 5px;
     font-size: 11.8pt;
 }
 #workpreview h1 {
@@ -239,7 +236,6 @@ a:active.sub {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
 #workpreview div:last-child {
     margin-right: 0px;
 }
@@ -261,40 +257,37 @@ a:active.sub {
     font-size: 16px;
     color: gray;
 }
-@media screen and (max-width: 1200px){
-.main{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-
-    font-family: 'roboto',sans-serif;
-    background-color: white;
-    height: 800px;
-    width: 450px;
-
-    box-shadow: 1px 1px 10px #9E9E9E;
-    margin-bottom: 100px;
-}
-.pic img {
-    padding-right: 20px;
-    padding-left: 25px;
-        padding-top: 25px;
-}
-#hi{
-padding-top: 3%;
-padding-right: 3%;
-font-size: 30px;
-display: block;
-text-align: left;
-    text-align: center;
-}
-#logo{
-    width:35%;
-}
-
-
+@media screen and (max-width: 1200px) {
+    .main {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        font-family: 'roboto', sans-serif;
+        background-color: white;
+        height: 800px;
+        width: 450px;
+        box-shadow: 1px 1px 10px #9E9E9E;
+        margin-bottom: 100px;
     }
-    /*
+    .pic img {
+        padding-right: 20px;
+        padding-left: 25px;
+        padding-top: 25px;
+    }
+    #hi {
+        padding-top: 3%;
+        padding-right: 3%;
+        font-size: 30px;
+        display: block;
+        text-align: left;
+        text-align: center;
+    }
+    #logo {
+        width: 35%;
+    }
+}
+
+/*
 @media screen and (max-width: 500px){
     #mainlinks span {
         margin-top: 30px;
@@ -320,76 +313,73 @@ text-align: left;
 
 }
 */
-@media screen and (max-width: 1268px){
+
+@media screen and (max-width: 1268px) {
     #imagepos {
-    width: 90%;
+        width: 90%;
+    }
+    #logo {
+        width: 50%;
+    }
 }
-#logo{
-    width:50%;
+@media screen and (max-width: 900px) {
+    #imagepos {
+        width: 100%;
+    }
 }
+@media screen and (max-width: 768px) {
+    .images {
+        width: auto;
+    }
+    #logo {
+        padding-left: 35px;
+    }
+    #mainlinks {
+        padding-right: 10px;
+        font-size: 15px;
+    }
 }
-@media screen and (max-width: 900px){
-    #imagepos{
-width:100%;
-}
-
-}
-@media screen and (max-width: 768px){
-.images{
-
-    width:auto;
-}
-#logo{
-    padding-left: 35px;
-}
-#mainlinks{
-    padding-right: 10px;
-    font-size:15px;
-}
-}
-@media screen and (max-width: 510px){
-#logo{
-    width:10%;
-    padding-left:5px;
-}
-#nav{
-    height:85px;
-}
-#mainlinks{
-    padding-right: 0px;
-}
-#mainlinks div:first-child span {
-    margin-top: 30px;
-}
-#mainlinks span {
-    margin-top: 30px;
-}
-#mainlinks div:nth-child(2) {
-    height: 85px;
-}
-#mainlinks div:first-child {
-    margin-left:0px;
-    height:85px;
-}
-.links{
-    padding-right: 10px;
-padding-left: 10px;
-}
-#imagepos {
-    margin-top:100px;
-}
-#mainlinks div:last-child {
-
-    color: white;
-    height: 85px;
-}
-img {
-    float: left;
-    width: 40%;
-}
-.main{
-    width:auto;
-    height: 550px;
-}
-
+@media screen and (max-width: 510px) {
+    #logo {
+        width: 10%;
+        padding-left: 5px;
+    }
+    #nav {
+        height: 85px;
+    }
+    #mainlinks {
+        padding-right: 0px;
+    }
+    #mainlinks div:first-child span {
+        margin-top: 30px;
+    }
+    #mainlinks span {
+        margin-top: 30px;
+    }
+    #mainlinks div:nth-child(2) {
+        height: 85px;
+    }
+    #mainlinks div:first-child {
+        margin-left: 0px;
+        height: 85px;
+    }
+    .links {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    #imagepos {
+        margin-top: 100px;
+    }
+    #mainlinks div:last-child {
+        color: white;
+        height: 85px;
+    }
+    img {
+        float: left;
+        width: 40%;
+    }
+    .main {
+        width: auto;
+        height: 550px;
+    }
 }
