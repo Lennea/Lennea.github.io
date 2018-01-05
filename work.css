@@ -2,7 +2,7 @@ body {
     /*background:url("img/backgroundv3.gif) no-repeat left top fixed;
 */
     font-family: 'Lato', sans-serif;
-    background-color: #e1e1e1;
+    background-color: rgba(225, 225, 225, 0.6); /* #e1e1e1 */
     margin: 0;
     height: 100%;
     font-weight: 300;
@@ -222,7 +222,7 @@ header {
         margin-right: 1%;
         display: inline-block;
         margin-bottom: 2%;
-        
+
 }
 
 .pic{
@@ -230,3 +230,63 @@ header {
     box-shadow: 1px 1px 10px #9E9E9E;
 }
 html { overflow-y: scroll; }
+@media screen and (max-width: 1268px){
+    #imagepos {
+    width: 90%;
+}
+#logo{
+    width:50%;
+}
+}
+@media screen and (max-width: 900px){
+    #imagepos{
+width:100%;
+}
+
+}
+@media screen and (max-width: 768px){
+.images{
+
+    width:auto;
+}
+#logo{
+    padding-left: 35px;
+}
+#mainlinks{
+    padding-right: 10px;
+    font-size:15px;
+}
+}
+@media screen and (max-width: 510px){
+#logo{
+    width:10%;
+    padding-left:5px;
+}
+#nav{
+    height:85px;
+}
+#mainlinks{
+    padding-right: 0px;
+}
+#mainlinks div:first-child span {
+    margin-top: 30px;
+}
+#mainlinks span {
+    margin-top: 30px;
+}
+#mainlinks div:nth-child(2) {
+    height: 85px;
+}
+#mainlinks div:first-child {
+    margin-left:0px;
+}
+.links{
+    padding-right: 10px;
+padding-left: 10px;
+}
+#imagepos {
+    margin-top:100px;
+}
+
+
+}

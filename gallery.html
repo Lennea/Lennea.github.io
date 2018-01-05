@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+
+    <title>Elena Kusiak</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400|Questrial" rel="stylesheet">
+    <!--
+    <link href="https://fonts.googleapis.com/css?family=Alef|Arimo|Montserrat|Muli|Open+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css" />
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/now" type="text/css" />
+-->
+<script type="text/javascript" src="jquery-3.2.1.js"></script>
+<script type="text/javascript" src="coin-slider.min.js"></script>
+<link rel="stylesheet" href="coin-slider-styles.css" type="text/css" />
+
+    <link rel="stylesheet" href="workdetail.css" type="text/css"/>
+</head>
+
+<body>
+
+
+
+    <div id="nav">
+        <h1 id="logo">ELENA KUSIAK</h1>
+        <div id="mainlinks">
+            <div class="links"><a href="index.html"><span>HOME</span></a></div>
+            <div class="links"><a href="work.html"><span>WORK</span></a></div>
+            <div class="links"><a href="about.html"><span>ABOUT</span></a></div>
+
+        </div>
+    </div>
+
+    <div id='coin-slider'>
+      <a href="work/bunny.jpg" target="_blank">
+        <img src='work/bunny.jpg' >
+        <span>
+          Description for img01
+        </span>
+      </a>
+      ......
+      ......
+      <a href="imgN_url">
+        <img src='work/shirt.jpg' >
+        <span>
+          Description for imgN
+        </span>
+      </a>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#coin-slider').coinslider({ width: 1000, height:500, navigation: false, delay: 10000, spw:1, sph:1, navigation: true, hoverPause:true });
+      });
+    </script>
+
+
+
+
+
+</body>
+
+</html>
