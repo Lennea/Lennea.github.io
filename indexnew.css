@@ -3,9 +3,11 @@ body {
     font-family: 'Lato', sans-serif;
     background-color: rgba(225, 225, 225, 0.6);
 }
+
 html {
     overflow-y: scroll;
 }
+
 #nav {
     width: 100%;
     height: 50px;
@@ -15,6 +17,7 @@ html {
     box-shadow: 1px 1px 10px #9E9E9E;
     top: 0px;
 }
+
 #logo {
     font-size: 26px;
     display: inline;
@@ -25,6 +28,7 @@ html {
     text-align: left;
     display: inline-block;
 }
+
 #mainlinks {
     display: inline;
     text-align: right;
@@ -36,10 +40,12 @@ html {
     font-size: 16px;
     font-weight: bold;
 }
+
 #mainlinks span {
     margin-top: 17px;
     display: block;
 }
+
 .links {
     float: left;
     padding-top: 0px;
@@ -50,6 +56,7 @@ html {
     padding-left: 25px;
     height: 50px;
 }
+
 #mainlinks div:first-child {
     background-color: gray;
     color: white;
@@ -57,20 +64,25 @@ html {
     margin-top: 0px;
     margin-left: -99px;
 }
+
 #mainlinks div:first-child span {
     margin-top: 17px;
     display: block;
 }
+
 #mainlinks div:first-child a:link {
     color: white;
 }
+
 #mainlinks div:first-child a:visited {
     color: white;
 }
+
 #mainlinks div:first-child a:hover {
     color: white;
     text-decoration: none;
 }
+
 a:link {
     color: black;
     text-decoration: none;
@@ -123,6 +135,7 @@ a:active.sub {
     color: black;
     text-decoration: underline;
 }
+
 #banner {
     margin-top: 50px;
     width: 100%;
@@ -138,6 +151,7 @@ a:active.sub {
     display: flex;
     /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
+
 #leftbox {
     background-color: #cccccc;
     display: inline;
@@ -160,6 +174,7 @@ a:active.sub {
     -webkit-order: 1;
     order: 1;
 }
+
 #rightbox {
     background-color: #90b4d8;
     display: inline;
@@ -182,6 +197,7 @@ a:active.sub {
     -webkit-order: 3;
     order: 3;
 }
+
 #imgcontainer {
     display: inline;
     width: 1100px;
@@ -196,15 +212,18 @@ a:active.sub {
     order: 2;
     /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
+
 #bannerimg {
     display: block;
     height: auto;
     width: 100%;
 }
+
 #workpreview {
     width: 1100px;
     margin: 0 auto;
 }
+
 .workpic {
     display: inline-block;
     width: 333px;
@@ -214,6 +233,7 @@ a:active.sub {
     float: left;
     box-shadow: 1px 1px 10px #9E9E9E;
 }
+
 #workpreview h2 {
     margin-top: 5px;
     margin-left: 10px;
@@ -222,12 +242,14 @@ a:active.sub {
     font-size: 18px;
     text-align: center;
 }
+
 #workpreview p {
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 5px;
     font-size: 11.8pt;
 }
+
 #workpreview h1 {
     color: black;
     text-align: center;
@@ -236,20 +258,24 @@ a:active.sub {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 #workpreview div:last-child {
     margin-right: 0px;
 }
+
 .pic {
     width: 100%;
     display: inline;
 }
+
 #footer {
     background-color: white;
     height: 75px;
     width: 100%;
     position: relative;
-    bottom: -500px;
+    bottom: -350px;
 }
+
 #footer h1 {
     width: 100%;
     text-align: center;
@@ -257,6 +283,7 @@ a:active.sub {
     font-size: 16px;
     color: gray;
 }
+
 @media screen and (max-width: 1200px) {
     .main {
         margin-left: auto;
@@ -322,11 +349,13 @@ a:active.sub {
         width: 50%;
     }
 }
+
 @media screen and (max-width: 900px) {
     #imagepos {
         width: 100%;
     }
 }
+
 @media screen and (max-width: 768px) {
     .images {
         width: auto;
@@ -339,6 +368,7 @@ a:active.sub {
         font-size: 15px;
     }
 }
+
 @media screen and (max-width: 510px) {
     #logo {
         width: 10%;
