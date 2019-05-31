@@ -2,13 +2,14 @@ body {
     /*background:url("img/backgroundv3.gif) no-repeat left top fixed;
 */
     font-family: 'Lato', sans-serif;
-    background-color:rgba(225, 225, 225, 0.6);
+    background-color: rgba(225, 225, 225, 0.6);
     margin: 0;
     height: 100%;
     font-weight: 300;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 #nav {
     width: 100%;
     height: 50px;
@@ -18,6 +19,7 @@ body {
     box-shadow: 1px 1px 10px #9E9E9E;
     top: 0px;
 }
+
 #logo {
     font-size: 26px;
     display: inline;
@@ -28,6 +30,7 @@ body {
     text-align: left;
     display: inline-block;
 }
+
 #mainlinks {
     display: inline;
     text-align: right;
@@ -39,19 +42,21 @@ body {
     font-size: 16px;
     font-weight: bold;
 }
-#mainlinks span{
-    margin-top:17px;
-    display:block;
+
+#mainlinks span {
+    margin-top: 17px;
+    display: block;
 }
+
 .links {
-    float:left;
+    float: left;
     padding-top: 0px;
     width: auto;
     z-index: 10;
     text-align: right;
     padding-right: 25px;
     padding-left: 25px;
-    height:50px;
+    height: 50px;
 }
 
 #mainlinks div:first-child {
@@ -62,16 +67,20 @@ body {
     margin-top: 0px;
     margin-left: -99px;
 }
+
 #mainlinks div:first-child span {
     margin-top: 17px;
     display: block;
 }
+
 #mainlinks div:first-child a:link {
     color: black;
 }
+
 #mainlinks div:first-child a:visited {
     color: black;
 }
+
 #mainlinks div:last-child {
     background-color: grey;
     color: white;
@@ -80,12 +89,15 @@ body {
     margin-top: 0px;
 
 }
+
 #mainlinks div:last-child a:link {
     color: white;
 }
+
 #mainlinks div:last-child a:visited {
     color: white;
 }
+
 #mainlinks div:last-child a:hover {
     color: white;
     text-decoration: none;
@@ -112,9 +124,10 @@ a:hover {
     text-decoration: underline;
 
 }
+
 .about2 a:hover {
     background: gray;
-    color:white;
+    color: white;
     text-decoration: none;
     border: 1.5px solid gray;
 }
@@ -152,113 +165,127 @@ a:active.sub {
     color: black;
     text-decoration: underline;
 }
+
 header {
     overflow: auto;
     z-index: 200;
 }
-.main{
+
+.main {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 150px;
     font-size: 13pt;
-    font-family: 'roboto',sans-serif;
-background-color: white;
-height:350.4px;
-box-shadow: 1px 1px 10px #9E9E9E;
+    font-family: 'roboto', sans-serif;
+    background-color: white;
+    height: 390px;
+    box-shadow: 1px 1px 10px #9E9E9E;
 
 }
+
 img {
     float: left;
-    width:400px;
+    width: 400px;
 }
-p{
+
+p {
     margin-left: 410px;
-padding-top: 0;
-padding-right:3%;
-padding-left: 3%;
+    padding-top: 0;
+    padding-right: 3%;
+    padding-left: 3%;
 
     font-size: 1.2vw;
 
 }
-#hi{
+
+#hi {
     padding-top: 3%;
 
-    font-size: 30px;
+    font-size: 40px;
 
-    text-align:left;
-        padding-top: 1.75%;
+    text-align: left;
+    padding-top: 1.75%;
 }
-.pic img{
-    padding-right: 20px;
-}
-#about{
-    margin-top:15px;
-}
-.about2{
-    color:white;
 
-padding: 3px;
-padding-left: 6px;
-padding-right: 6px;
-margin-top: 20px;
+.pic img {
+    padding: 20px;
+}
+
+#about {
+    margin-top: 15px;
+}
+
+.about2 {
+    color: white;
+
+    padding: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-top: 20px;
 
 
 }
-.about2 a{
+
+.about2 a {
     border-radius: 20px;
     border: 1.5px solid black;
     padding: 4px;
     padding-left: 10px;
     padding-right: 10px;
 }
-.text{
+
+.text {
     margin-right: 3%;
-        margin-top: 20px;
-        float: inherit;
-        padding: 15px;
+    margin-top: 20px;
+    float: inherit;
+    padding: 15px;
 }
-hr{
-    display:inline-block;
+
+hr {
+    display: inline-block;
     border-top: 1px;
-    width:200px;
+    width: 200px;
 }
 
-html { overflow-y: scroll; }
-
-@media screen and (max-width: 1200px){
-.main{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-
-    font-family: 'roboto',sans-serif;
-    background-color: white;
-    height: 800px;
-    width: 450px;
-
-    box-shadow: 1px 1px 10px #9E9E9E;
-    margin-bottom: 100px;
-}
-.pic img {
-    padding-right: 20px;
-    padding-left: 25px;
-        padding-top: 25px;
-}
-#hi{
-padding-top: 3%;
-padding-right: 3%;
-font-size: 30px;
-display: block;
-text-align: left;
-    text-align: center;
-}
-#logo{
-    width:35%;
+html {
+    overflow-y: scroll;
 }
 
+@media screen and (max-width: 1200px) {
+    .main {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
 
+        font-family: 'roboto', sans-serif;
+        background-color: white;
+        height: 800px;
+        width: 450px;
+
+        box-shadow: 1px 1px 10px #9E9E9E;
+        margin-bottom: 100px;
     }
-    /*
+    .pic img {
+        padding-right: 20px;
+        padding-left: 25px;
+        padding-top: 25px;
+    }
+    #hi {
+        padding-top: 3%;
+        padding-right: 3%;
+        font-size: 30px;
+        display: block;
+        text-align: left;
+        text-align: center;
+    }
+    #logo {
+        width: 35%;
+    }
+
+
+}
+
+/*
 @media screen and (max-width: 500px){
     #mainlinks span {
         margin-top: 30px;
@@ -284,76 +311,80 @@ text-align: left;
 
 }
 */
-@media screen and (max-width: 1268px){
+
+@media screen and (max-width: 1268px) {
     #imagepos {
-    width: 90%;
-}
-#logo{
-    width:50%;
-}
-}
-@media screen and (max-width: 900px){
-    #imagepos{
-width:100%;
+        width: 90%;
+    }
+    #logo {
+        width: 50%;
+    }
 }
 
-}
-@media screen and (max-width: 768px){
-.images{
+@media screen and (max-width: 900px) {
+    #imagepos {
+        width: 100%;
+    }
 
-    width:auto;
 }
-#logo{
-    padding-left: 35px;
+
+@media screen and (max-width: 768px) {
+    .images {
+
+        width: auto;
+    }
+    #logo {
+        padding-left: 35px;
+    }
+    #mainlinks {
+        padding-right: 10px;
+        font-size: 15px;
+    }
 }
-#mainlinks{
-    padding-right: 10px;
-    font-size:15px;
-}
-}
-@media screen and (max-width: 510px){
-#logo{
-    width:10%;
-    padding-left:5px;
-}
-#nav{
-    height:85px;
-}
-#mainlinks{
-    padding-right: 0px;
-}
-#mainlinks div:first-child span {
-    margin-top: 30px;
-}
-#mainlinks span {
-    margin-top: 30px;
-}
-#mainlinks div:nth-child(2) {
-    height: 85px;
-}
-#mainlinks div:first-child {
-    margin-left:0px;
-}
-.links{
-    padding-right: 10px;
-padding-left: 10px;
-}
-#imagepos {
-    margin-top:100px;
-}
-#mainlinks div:last-child {
-    background-color: grey;
-    color: white;
-    height: 85px;
-}
-img {
-    float: left;
-    width: 40%;
-}
-.main{
-    width:auto;
-    height: 550px;
-}
+
+@media screen and (max-width: 510px) {
+    #logo {
+        width: 10%;
+        padding-left: 5px;
+    }
+    #nav {
+        height: 85px;
+    }
+    #mainlinks {
+        padding-right: 0px;
+    }
+    #mainlinks div:first-child span {
+        margin-top: 30px;
+    }
+    #mainlinks span {
+        margin-top: 30px;
+    }
+    #mainlinks div:nth-child(2) {
+        height: 85px;
+    }
+    #mainlinks div:first-child {
+        margin-left: 0px;
+    }
+    .links {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    #imagepos {
+        margin-top: 100px;
+    }
+    #mainlinks div:last-child {
+        background-color: grey;
+        color: white;
+        height: 85px;
+    }
+    img {
+        float: left;
+        width: 40%;
+    }
+    .main {
+        width: auto;
+        height: 550px;
+    }
 
 
 
